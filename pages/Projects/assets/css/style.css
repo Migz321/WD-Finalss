@@ -85,7 +85,3 @@ section.content{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.buttons:hover {
-    transform: translate(-10px, -10px);
-    box-shadow: 10px 10px 0 rgba(36, 31, 33, 255);
-}
