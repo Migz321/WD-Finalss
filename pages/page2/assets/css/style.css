@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    text-align: center;
+    & img{
+        width: 43px;
+        border-radius: 50%;
+    }
+    & a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        transition: 1s;
+        &:hover{
+            color: #000;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    }
+}
+section.content{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../img/bunny.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100dvw;
+    height: 95dvh;
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 4px 4px 9px rgba(0,0,0,0.5);
+    & div{
+        background-color: rgba(0,0,0,0.5);
+        padding: 25px;
+        border-radius: 10px;
+        margin-top: 50px;
+        transition: 1s;
+        & p{
+            margin-top: 20px;
+            margin-bottom: 2rem;
+        }
+        & a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            transition: 1s;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+            &:hover{
+                color: #000;
+                padding: 5px 10px;
+                border-radius: 5px;
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.buttons {
+    display: inline-block;
+    margin-top: 0.5rem;
+    position: relative;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    padding: 0.7rem;
+    background: #d07a7a;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.buttons:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 0 rgba(36, 31, 33, 255);
+}
