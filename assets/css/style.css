@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: black;
+}
+
+body {
+    background: #B04759;
+}
+
+.landing-page {
+    display: flex;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 3rem;
+    max-width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+}
+
+.buttons {
+    display: inline-block;
+    margin-top: 0.5rem;
+    position: relative;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    padding: 0.7rem;
+    background: #d07a7a;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.buttons:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 0 rgba(36, 31, 33, 255);
+}
+
+.texts-lp {
+    flex: 1;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    max-width: 70%;
+}
+
+.image-container {
+    flex: 0 0 18rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    border: 2px solid rgba(36, 31, 33, 255);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    object-position: center bottom;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+    transition: all 0.5s ease;
+}
+
+
+p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+footer {
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: none;
+    color: rgba(36, 31, 33, 255);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.footer-content p {
+    margin: 0;
+    color: rgba(36, 31, 33, 255);
+    font-size: 0.75rem;
+}
